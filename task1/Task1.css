@@ -1,0 +1,88 @@
+ .main-continer{
+    display: grid;
+    gap : 10px;
+ }
+
+ header {
+    color: white;
+    background-color: greenyellow;
+    padding: 20px;
+    text-align: center;
+ }
+
+ .section-2{
+    color: white;
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.section-3{
+    color: white;
+    background-color: rgb(2, 46, 2);
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.Main-content{
+    color: white;
+    background-color: rgb(239, 195, 113);
+    justify-content: center;
+    flex-grow: 3;
+    text-align: center;
+}
+
+.Extra-content{
+    color: white;
+    background-color: rgb(134, 221, 157);
+    display: flex;
+    justify-content: center;
+}
+
+.Related-Image {
+    color: white;
+    background-color: rgb(101, 181, 238);
+    display: flex;
+    justify-content: center;
+    flex-grow:2;
+}
+
+.Related-post {
+    color: white;
+    background-color: rgb(235, 87, 206);
+    display: flex;
+    justify-content: center;
+    flex-grow:1;
+}
+.second-row , .third-row{
+    display: flex;
+    gap: 10px;
+}
+
+.second-row {
+    height: 200px;
+
+}
+
+.third-row{
+    height: 70px;
+}
+
+.left-coulmn , .right-coulmn  {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-content: center;
+    gap : 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(12, 60, 217);
+    padding: 20px;
+    align-items: center;
+}
