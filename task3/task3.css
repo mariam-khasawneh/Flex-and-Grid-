@@ -1,0 +1,64 @@
+.main-continer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(184, 242, 242);
+    gap : 15px;
+    margin: 20PX;
+    padding: 20px;
+}
+
+header , footer {
+    background-color: rgb(0, 155, 155);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+.main-content{
+    display: flex;
+    gap: 15px;
+    height: 300px;
+}
+
+.articles{
+    background-color: rgb(250, 178, 44);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    padding: 20px;
+    justify-content: flex-end;
+    display: flex;
+    flex-grow: 1;
+    align-items: stretch;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+aside{
+    background-color: rgb(125, 238, 125);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+.imgs{
+    display: flex;
+    gap: 15px;
+}
+
+.img{
+    background-color: rgb(248, 214, 101);
+    padding: 15px;
+    flex-grow: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
