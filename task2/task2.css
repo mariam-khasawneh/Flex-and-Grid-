@@ -1,0 +1,35 @@
+h5 , p {
+    margin: 2px;
+}
+
+.main-section{
+    background-color: aqua;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.users-continer{
+    background-color: rgb(223, 223, 166);
+    border-radius: 20px;
+    padding: 20px;
+    width: 25%;
+    box-shadow:  10px 10px 8px 10px #aaa;
+}
+
+.user-img-continer{
+    background-color: gray;
+    display: inline-flex;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.user {
+     display: flex;
+     gap :10px;
+     align-items: center;
+}
+
+hr {
+    color: white;
+}
